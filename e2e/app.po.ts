@@ -10,10 +10,10 @@ return element(by.css('app-counter p')).getText();
 }
 
 getIncrementButton() {
-return element(by.cssContainingText('button', 'increment'));
+return element(by.cssContainingText('button', 'Increment'));
 }
 
 getDecrementButton() {
-return element(by.cssContainingText('button', 'decrement'));
+return element(by.cssContainingText('button', 'Decrement'));
 }
 }
