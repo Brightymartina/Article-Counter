@@ -27,7 +27,7 @@ page.getIncrementButton().click();
 expect(page.getNumber()).toEqual('Number: 5');
 });
 
-it('Should decrease number by one on clicking decrement', () => {
+it('Should decrease number by one on decrement', () => {
 page.navigateTo();
 
 page.getIncrementButton().click();
